@@ -165,23 +165,25 @@ Before you add a Netsmart Web Service to your project, you need to know where th
 ## Determining the Web Services location
 To do this in for AVPM Web Services in your LIVE environment
 1. Login to your LIVE environment
-2. Open the "Registry Settings" form
-3. In the upper right text box, type "Web Service"
-4. Click "View Registry Settings"
+2. Open the **Registry Settings** form
+3. In the upper right text box, type **Web Service**
+4. Click **View Registry Settings**
 
 A list of Registry Settings will appear.
 
-Find the "Avatar Web Services[Avatar PM]" > "Set System Defaults" entry.
+Find the **Avatar Web Services[Avatar PM]** > **Set System Defaults** entry.
 
 There should be a line that looks similar to this:
-
+```
 URL Regirsty Setting Value: https://<ORGANIZATION>csp.netsmartcloud.com/csp/<ORGANIZATION>/avpm
+```
 
-where "ORGANIZATION" is the name of your organization/company.
+where `ORGANIZATION` is the name of your organization/company.
 
 For other Avatar Environments, the Web Services location will look like this:
-
+```
 URL Regirsty Setting Value: https://<ORGANIZATION>csp.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm
+```
 
 ## Verifying the Web Services location
 To verify that the Netsmart Web Services are where they should be, and are active, open the following URL in a web browser:
@@ -191,7 +193,7 @@ https://<ORGANIZATION>.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm/WE
 
 The supported operations of the User Management Web Service should be displayed.
 
-Next, add "?WSDL" to the end of the URL so it looks like this:
+Next, add `?WSDL` to the end of the URL so it looks like this:
 ```
 https://<ORGANIZATION>.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm/WEBSVC.UserManagement.cls?WSDL
 ```
