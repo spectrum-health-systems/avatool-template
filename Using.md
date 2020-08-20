@@ -18,7 +18,6 @@ To get a list of the current Netsmart Avatar Web Services:
 3. Click **Radplus YYYY** (i.e. "RADplus 2017")
 4. Type *"Web Services"* in the search bar
 5. Click **List of Avatar Web Services**
-<br>
 
 <details>
     <summary>
