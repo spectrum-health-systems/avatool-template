@@ -20,8 +20,10 @@ To get a list of the current Netsmart Avatar Web Services:
 5. Click **List of Avatar Web Services**
 <br>
 
-The current list of Netsmart Web Services for myAvatar is (as of 8/20/20):
-
+<details>
+    <summary>
+        Current list of Netsmart Web Services for myAvatar is (as of 8/20/20)
+    </summary>
 * Avatar RADplus Web Services
     * DocM.DocManagementWebService
     * WEBSVC.ClientAlerts
@@ -158,6 +160,7 @@ The current list of Netsmart Web Services for myAvatar is (as of 8/20/20):
     * WEBSVC.UpdateMemberDemographics
 * Avatar CFMS Web Services
     * WEBSVC.TransactionPosting
+</details>
 
 # Adding a Netsmart Avatar Web Service to your project
 Before you add a Netsmart Web Service to your project, you need to know where the Netsmart Web Services are located.
