@@ -207,16 +207,16 @@ These instructions are for Visual Studio 2019 projects .NET Framwork 4.7.2 C# pr
 2. Click **Add**
 3. Click **Service Reference**
 4. In the *Address* field, put the URL for the Web Service WSDL:
-	```
-	https://<ORGANIZATION>.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm/WEBSVC.UserManagement.cls?WSDL
-	```
+```
+https://<ORGANIZATION>.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm/WEBSVC.UserManagement.cls?WSDL
+```
 
 5. Click **Go**. The Web Service should be found.
 
-6. In the *Namespace* field, give the Web Service a name. This is the name that your project will use to reference
-	   the Web Service, so make it something meaningful. For example:
-
-		`NtstWebSvcUatUserManagement`
+6. In the *Namespace* field, give the Web Service a name. This is the name that your project will use to reference the Web Service, so make it something meaningful. For example:
+```
+NtstWebSvcUatUserManagement
+```
 
 7. Click **Ok**.
 
