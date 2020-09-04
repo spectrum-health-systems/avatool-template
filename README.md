@@ -121,7 +121,7 @@ https://<ORGANIZATION>.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm/WE
 
 This should display the Web Service Definition Language XML.
 
-## Adding a Netsmart Web Service to your project:
+## Adding a Service Reference to your project
 These instructions are for Visual Studio 2019 projects .NET Framwork 4.7.2 C# projects.
 
 1. Right-click on your project
