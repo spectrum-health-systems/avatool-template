@@ -1,4 +1,4 @@
-# ISSUE TEMPLATE: Avatool
+# ISSUE TEMPLATE: Avatool template
 
 ### Description
 Provide a detailed description of the issue.

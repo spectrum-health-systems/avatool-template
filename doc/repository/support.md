@@ -1,1 +1,1 @@
-# SUPPORT: Avatool
+# SUPPORT: Avatool template

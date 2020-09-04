@@ -1,1 +1,1 @@
-# ADDITIONAL READING: Avatool
+# ADDITIONAL READING: Avatool template

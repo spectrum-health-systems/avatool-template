@@ -1,4 +1,4 @@
-# NOTICES: repository
+# NOTICES: Avatool template
 ProjectName
 Copyright [yyyy] [name of copyright owner]
 

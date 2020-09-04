@@ -1,1 +1,1 @@
-﻿# KNOWN ISSUES: Avatool
+﻿# KNOWN ISSUES: Avatool template

@@ -1,1 +1,1 @@
-# PULL REQUEST TEMPLATE: Avatool
+# PULL REQUEST TEMPLATE: Avatool template

@@ -1,4 +1,4 @@
-# CODE OF CONDUCT: Avatool
+# CODE OF CONDUCT: Avatool template
 > **This project is released with a Contributor Code of Conduct, adapted from the [Contributor Covenant][homepage]. By participating in this project you agree to abide by its terms.**
 
 ## Contributor Covenant Code of Conduct

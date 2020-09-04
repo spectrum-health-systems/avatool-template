@@ -4,7 +4,6 @@
   Authors: development@aprettycoolprogram.com
 -->
 
-<!-- REPOSITORY NAME, ICON, AND SHORT DESCRIPTION -->
 <h2 align="center">
 
   <img src="RepositoryData/Asset/Image/Logo/avatool-template-logo-with-text-256x256.png" alt="Avatool Template Logo" width="210"><br>
@@ -13,7 +12,6 @@
   
 </h2>
 
-<!-- REPOSITORY BADGES -->
 <h2 align="center">
 
   <img src="https://img.shields.io/badge/status-active-brightgreen.svg">&nbsp;[![License](https://img.shields.io/github/license/spectrum-health-systems/avatool-template)](https://www.apache.org/licenses/LICENSE-2.0)&nbsp;![GitHub release](https://img.shields.io/github/release/spectrum-health-systems/avatool-template?label=latest%20release)
@@ -32,15 +30,13 @@
 </h1>
 -->
 
-<!-- REPOSITORY HORIZONTAL MENU-->
 <h6 align="center">
 
-  [WEBSITE](URL)&nbsp;&bull;&nbsp;[DEMO](URL)&nbsp;&bull;&nbsp;[MANUAL](doc/manual/manual.md)&nbsp;&bull;&nbsp;[CHANGELOG](doc/repository/changelog.md)&nbsp;&bull;&nbsp;[ROADMAP](doc/repository/roadmap.md)&nbsp;&bull;&nbsp;[KNOWN ISSUES](doc/repository/known-issues.md)&nbsp;&bull;&nbsp;[SUPPORT](doc/repository/support.md)
+  [CHANGELOG](doc/repository/changelog.md)&nbsp;&bull;&nbsp;[ROADMAP](doc/repository/roadmap.md)&nbsp;&bull;&nbsp;[KNOWN ISSUES](doc/repository/known-issues.md)&nbsp;&bull;&nbsp;[SUPPORT](doc/repository/support.md)
   <br>
 
 </h6>
 
-<!-- REPOSITORY VERTICAL MENU-->
 <!-- The HTML indentations have to stay this way to work. -->
 <table>
 <tr>
@@ -49,7 +45,6 @@
   ### CONTENTS
   [ABOUT](#about)<br>
   [GETTING STARTED](#getting-started)<br>
-  [INSTALLING](#installing)<br>
   [SETUP](#setup)<br>
   [USAGE](#usage)<br>
   [COMPILING](#compiling)<br>
@@ -62,92 +57,94 @@
 </tr>
 </table>
 
-<!-- ABOUT THIS REPOSITORY -->
 # About
-This is a template for GitHub repositories.
+The Avatool Template is a blank template for building your own Avatool utilities.
 ### Features
 * Feature #1
 * Feature #2
 * Feature #3
 
-<!-- GETTING STARTED WITH THIS REPOSITORY -->
 # Getting started
 ### Before you begin
-Things you should do before you begin.
+Before you create your own Avatool utility, make sure what you're looking for isn't already in [Avatool](https://github.com/spectrum-health-systems/avatool).
 ### Prerequisites
-* Prerequisite #1
-* Prerequisite #2
-* Prerequisite #3
+* Visual Studio 2019
+* .NET Framework 4.7+
+* Access to the Netsmart Web Services
 
-<!-- HOW TO INSTALL -->
-# Installing
-### Windows
-1. The steps to install the project in Windows
-2. Use both Markdown and/or HTML
-3. Include screenshots when possible.
-### MacOS
-1. The steps to install the project in MacOS
-2. Use both Markdown and/or HTML
-3. Include screenshots when possible.
-### Linux
-1. The steps to install the project in Linux
-2. Use both Markdown and/or HTML
-3. Include screenshots when possible.
-### Other operating systems
-1. The steps to install the project in other operating systems
-2. Use both Markdown and/or HTML
-3. Include screenshots when possible.
-4. If other operating systems are not supported, mention that here.
+#### Netsmart Web Services that are currently used with Avatool
+Avatool uses the following Netsmart Web Services:
 
-<!-- HOW TO SETUP -->
+- User Management (WEBSVC.UserManagement.CLS)
+
 # Setup
-If your project has a setup procedure, document it here.
-
-For example, you may need to make changes to a configuration file before using the project.
-### Configuring
-Configuration introduction.
-#### Required configuration settings
-Required configuration settings go here.
-#### Recommended configuration settings
-Recommended configuration settings go here.
-#### Optional configuration settings
-Optional configuration settings go here.
-### Important notes about options
-Optional/important notes about options go here.
+1. Download the latest [release](https://github.com/spectrum-health-systems/avatool-template/releases)
+2. Open the solution in Visual Studio 2019
 
 <!-- HOW TO USE -->
 # Using
-Usage instructions go here.
+## Adding a Netsmart Avatar Web Service to your project
+Before you add a Netsmart Web Service to your project, you need to know where the Netsmart Web Services are located.
 
-<!-- HOW TO UPDATE -->
-# Updating
-Updating instructions go here
+### Determining the Web Services location
+To do this in for AVPM Web Services in your LIVE environment
+1. Login to your LIVE environment
+2. Open the **Registry Settings** form
+3. In the upper right text box, type **Web Service**
+4. Click **View Registry Settings**
 
-<!-- HOW TO UNINSTALL -->
-# Uninstalling
-Optional/important notes about usage go here.
+A list of Registry Settings will appear.
 
-<!-- HOW TO COMPILE -->
-# Compiling
-Optional/important notes about usage go here.
-### Making
-Making instructions go here.
-### Building
-Building instructions go here.
-### Deploying
-Deployment instructions go here.
+Find the **Avatar Web Services[Avatar PM]** > **Set System Defaults** entry.
 
-<!-- HOW TO TEST -->
-# Testing
-Here.
+There should be a line that looks similar to this:
+```
+URL Regirsty Setting Value: https://<ORGANIZATION>csp.netsmartcloud.com/csp/<ORGANIZATION>/avpm
+```
 
-<!-- HOW IT WORKS -->
-# How it works
-Sometimes it's fun to let users know how the magic happens.
+where `ORGANIZATION` is the name of your organization/company.
 
-<!-- API INFORMATION -->
-# API
-If your project contains an API, it should be documented here (or link to the documentation).
+For other Avatar Environments, the Web Services location will look like this:
+```
+URL Regirsty Setting Value: https://<ORGANIZATION>csp.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm
+```
+
+## Verifying the Web Services location
+To verify that the Netsmart Web Services are where they should be, and are active, open the following URL in a web browser:
+```
+https://<ORGANIZATION>.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm/WEBSVC.UserManagement.cls
+```
+
+The supported operations of the User Management Web Service should be displayed.
+
+Next, add `?WSDL` to the end of the URL so it looks like this:
+```
+https://<ORGANIZATION>.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm/WEBSVC.UserManagement.cls?WSDL
+```
+
+This should display the Web Service Definition Language XML.
+
+## Adding a Netsmart Web Service to your project:
+These instructions are for Visual Studio 2019 projects .NET Framwork 4.7.2 C# projects.
+
+1. Right-click on your project
+2. Click **Add**
+3. Click **Service Reference**
+4. In the *Address* field, put the URL for the Web Service WSDL:
+```
+https://<ORGANIZATION>.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm/WEBSVC.UserManagement.cls?WSDL
+```
+
+5. Click **Go**. The Web Service should be found.
+
+6. In the *Namespace* field, give the Web Service a name. This is the name that your project will use to reference the Web Service, so make it something meaningful. For example:
+```
+NtstWebSvcUatUserManagement
+```
+
+7. Click **Ok**.
+
+Repeat steps 1-5 for each of your Avatar environments.
 
 <!-- FREQUENTLEY ASKED QUESTIONS -->
 # FAQ

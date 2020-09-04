@@ -1,1 +1,1 @@
-# ACKNOWLEDGEMENTS: Avatool
+# ACKNOWLEDGEMENTS: Avatool template
