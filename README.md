@@ -66,7 +66,7 @@ The Avatool Template is a blank template for building your own Avatool utilities
 
 # Getting started
 ### Before you begin
-Before you create your own Avatool utility, make sure what you're looking for isn't already in [Avatool](https://github.com/spectrum-health-systems/avatool).
+Before you create your own Avatool utility, make sure the functionality you are looking for isn't already in [Avatool](https://github.com/spectrum-health-systems/avatool), and if it isn't, consider contributing to Avatool directly.
 ### Prerequisites
 * Visual Studio 2019
 * .NET Framework 4.7+
@@ -146,18 +146,14 @@ NtstWebSvcUatUserManagement
 
 Repeat steps 1-5 for each of your Avatar environments.
 
-<!-- FREQUENTLEY ASKED QUESTIONS -->
 # FAQ
-### Are you nice?
-I think so.
+### What Netsmart Web Services are available?
+Check out [this list](doc/list-of-netsmart-avatar-web-services.md)
 
-<!-- PROJECT DEVELOPMENT -->
 # Development
 A blurb about development can go here.
 ### Contributors
-* [Contributor #1](URL/Email)
-* [Contributor #2](URL/Email)
-* [Contributor #3](URL/Email)
+* [Chris Banwarth](https://github.com/APrettyCoolProgram)
 ### Contributing
 If you are interested in contributing to this project, please see our:
 * [Code of conduct](doc/repository/code-of-conduct.md)
@@ -165,10 +161,6 @@ If you are interested in contributing to this project, please see our:
 * [Testing procedures](doc/repository/testing.md)
 * [Issue template](doc/repository/issue-template.md)
 * [Pull request template](doc/repository/pull-request-template.md)
-### Built with
-* [Built with #1](URL)
-* [Built with #2](URL)
-* [Built with #3](URL)
 ### Acknowledgements
 * [Acknowledgements](doc/repository/acknowledgements.md)
 * [Third-party notices](doc/repository/roadmap.md)
@@ -177,13 +169,7 @@ If you are interested in contributing to this project, please see our:
 
 # ADDITIONAL INFORMATION
 ### RELATED PROJECTS
-* [Related project #1](URL)
-* [Related project #2](URL)
-* [Related project #3](URL)
-### ADDITIONAL READING
-* [Additional reading #1](URL)
-* [Additional reading #2](URL)
-* [Additional reading #3](URL)
+* [ScriptLinkStandard](https://github.com/rcskids/ScriptLinkStandard)
 
 ***
 
