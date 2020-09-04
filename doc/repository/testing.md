@@ -1,1 +1,1 @@
-# TESTING: Avatool
+# TESTING: Avatool template

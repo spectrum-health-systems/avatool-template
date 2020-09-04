@@ -1,4 +1,4 @@
-# CHANGELOG: Avatool
+# CHANGELOG: Avatool template
 
 ### v0.0.0.0.YYMMDD.HHMM
 `INFORMATION`
