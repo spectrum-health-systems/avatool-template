@@ -59,18 +59,14 @@
 
 # About
 The Avatool Template is a blank template for building your own Avatool utilities.
-### Features
-* Feature #1
-* Feature #2
-* Feature #3
 
 # Getting started
 ### Before you begin
-Before you create your own Avatool utility, make sure the functionality you are looking for isn't already in [Avatool](https://github.com/spectrum-health-systems/avatool), and if it isn't, consider contributing to Avatool directly.
+Before you create your own Avatool utility, make sure the functionality you are looking for isn't already in [Avatool](https://github.com/spectrum-health-systems/avatool), and if it isn't, consider contributing to the Avatool project [directly](https://github.com/spectrum-health-systems/avatool/blob/master/doc/repository/contributing.md).
 ### Prerequisites
 * Visual Studio 2019
 * .NET Framework 4.7+
-* Access to the Netsmart Web Services
+* Access to the Netsmart myAvatool Web Services
 
 #### Netsmart Web Services that are currently used with Avatool
 Avatool uses the following Netsmart Web Services:
