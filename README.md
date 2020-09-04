@@ -7,8 +7,8 @@
 <!-- REPOSITORY NAME, ICON, AND SHORT DESCRIPTION -->
 <h2 align="center">
 
-  <img src="RepositoryData/Asset/Image/Logo/avatool-logo-with-text-256x256.png" alt="Avatool Logo" width="256"><br>
-  Various tools and utilities for Netsmart's myAvatar™ EHR
+  <img src="RepositoryData/Asset/Image/Logo/avatool-template-logo-with-text-256x256.png" alt="Avatool Template Logo" width="210"><br>
+  A blank Avatool template
   <br>
   
 </h2>
@@ -16,7 +16,7 @@
 <!-- REPOSITORY BADGES -->
 <h2 align="center">
 
-  <img src="https://img.shields.io/badge/status-active-brightgreen.svg">&nbsp;[![License](https://img.shields.io/github/license/spectrum-health-systems/avatool)](https://www.apache.org/licenses/LICENSE-2.0)&nbsp;![GitHub release](https://img.shields.io/github/release/spectrum-health-systems/avatool?label=latest%20release)
+  <img src="https://img.shields.io/badge/status-active-brightgreen.svg">&nbsp;[![License](https://img.shields.io/github/license/spectrum-health-systems/avatool-template)](https://www.apache.org/licenses/LICENSE-2.0)&nbsp;![GitHub release](https://img.shields.io/github/release/spectrum-health-systems/avatool-template?label=latest%20release)
   <br>
 
 </h2>
