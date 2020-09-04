@@ -45,8 +45,8 @@
   ### CONTENTS
   [ABOUT](#about)<br>
   [GETTING STARTED](#getting-started)<br>
-  [SETUP](#setup)<br>
-  [USAGE](#usage)<br>
+  [INSTALLING](#installing)<br>
+  [USING](#using)<br>
   [COMPILING](#compiling)<br>
   [TESTING](#testing)<br>
   [API](#api)<br>
@@ -77,9 +77,10 @@ Avatool uses the following Netsmart Web Services:
 
 - User Management (WEBSVC.UserManagement.CLS)
 
-# Setup
+# Installing
 1. Download the latest [release](https://github.com/spectrum-health-systems/avatool-template/releases)
-2. Open the solution in Visual Studio 2019
+2. Copy the `avatool-template-YYMMDD` file to the Visual Studio C# project template folder
+3. Create a new project in Visual Studio using the Avatool Template project type
 
 <!-- HOW TO USE -->
 # Using
