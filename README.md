@@ -45,10 +45,10 @@
 </tr>
 </table>
 
-# About
+# ABOUT
 The Avatool Template is a blank template for building your own Avatool utilities for use with Netsmart's [myAvatar™](https://www.ntst.com/Solutions-and-Services/Offerings/myAvatar) EHR.
 
-# Getting started
+# GETTING STARTED
 
 ### Before you begin
 Before you create your own Avatool utility, make sure the functionality you are looking for isn't already in [Avatool](https://github.com/spectrum-health-systems/avatool), and if it isn't, consider contributing to the Avatool project [directly](https://github.com/spectrum-health-systems/avatool/blob/master/doc/repository/contributing.md).
@@ -59,12 +59,12 @@ Before you create your own Avatool utility, make sure the functionality you are 
 * Access to [Netsmart myAvatar™ web services](doc/list-of-netsmart-avatar-web-services.md)
 * Optionally, access to a custom web service for use with myAvatar™
 
-# Installing
+# INSTALLING
 1. Download the latest [release](https://github.com/spectrum-health-systems/avatool-template/releases) of the Avatool Template
 2. Copy the `avatool-template-vx.x.x.x-YYMMDD` file to the Visual Studio C# project template folder
 3. Create a new project in Visual Studio using the Avatool Template project type
 
-# Using
+# USING
 Out of the box, the Avatool Template is not associated with any web service(s), Netsmart or custom. You will need to add the web services you would like to use.
 
 ## Adding a Netsmart Avatar web service to your project
@@ -137,7 +137,7 @@ Repeat steps 1-5 for each of your myAvatar™ environments.
 ## Adding a custom web service to your project
 Instructions to add a custom web service to the Avatool template coming soon.
 
-# Development
+# DEVELOPMENT
 
 ### Contributors
 * [Chris Banwarth](https://github.com/APrettyCoolProgram)
