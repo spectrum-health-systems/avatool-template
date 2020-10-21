@@ -4,6 +4,8 @@
   Authors: development@aprettycoolprogram.com
 -->
 
+<!-- avatool-template README.md v1.0.0.0 -->
+
 <h2 align="center">
 
   <img src="RepositoryData/Asset/Image/Logo/avatool-template-logo-with-text-256x256.png" alt="Avatool Template Logo" width="210"><br>
@@ -18,17 +20,6 @@
   <br>
 
 </h2>
-
-<!-- SOON -->
-<!-- REPOSITORY SCREENSHOT -->
-<!--
-<h1 align="center">
-
-  <img src="RepositoryData/Asset/Image/Screenshot/screenshot.png" alt="Repository Screenshot" width="500">
-  <br>
-
-</h1>
--->
 
 <h6 align="center">
 
@@ -47,9 +38,6 @@
   [GETTING STARTED](#getting-started)<br>
   [INSTALLING](#installing)<br>
   [USING](#using)<br>
-  [COMPILING](#compiling)<br>
-  [TESTING](#testing)<br>
-  [API](#api)<br>
   [DEVELOPMENT](#development)<br>
   [ADDITIONAL INFORMATION](#additional-information)<br>
 
@@ -57,34 +45,37 @@
 </tr>
 </table>
 
-# About
-The Avatool Template is a blank template for building your own Avatool utilities.
+# ABOUT
+The Avatool Template is a blank template for building your own Avatool utilities for use with Netsmart's [myAvatar™](https://www.ntst.com/Solutions-and-Services/Offerings/myAvatar) EHR.
 
-# Getting started
+# GETTING STARTED
+
 ### Before you begin
 Before you create your own Avatool utility, make sure the functionality you are looking for isn't already in [Avatool](https://github.com/spectrum-health-systems/avatool), and if it isn't, consider contributing to the Avatool project [directly](https://github.com/spectrum-health-systems/avatool/blob/master/doc/repository/contributing.md).
+
 ### Prerequisites
 * Visual Studio 2019
 * .NET Framework 4.7+
-* Access to the Netsmart myAvatool Web Services
+* Access to [Netsmart myAvatar™ web services](doc/list-of-netsmart-avatar-web-services.md)
+* Optionally, access to a custom web service for use with myAvatar™
 
-#### Netsmart Web Services that are currently used with Avatool
-Avatool uses the following Netsmart Web Services:
-
-- User Management (WEBSVC.UserManagement.CLS)
-
-# Installing
-1. Download the latest [release](https://github.com/spectrum-health-systems/avatool-template/releases)
-2. Copy the `avatool-template-YYMMDD` file to the Visual Studio C# project template folder
+# INSTALLING
+1. Download the latest [release](https://github.com/spectrum-health-systems/avatool-template/releases) of the Avatool Template
+2. Copy the `avatool-template-vx.x.x.x-YYMMDD` file to the Visual Studio C# project template folder
 3. Create a new project in Visual Studio using the Avatool Template project type
 
-<!-- HOW TO USE -->
-# Using
-## Adding a Netsmart Avatar Web Service to your project
-Before you add a Netsmart Web Service to your project, you need to know where the Netsmart Web Services are located.
+# USING
+Out of the box, the Avatool Template is not associated with any web service(s), Netsmart or custom. You will need to add the web services you would like to use.
 
-### Determining the Web Services location
-To do this in for AVPM Web Services in your LIVE environment
+## Adding a Netsmart Avatar web service to your project
+
+### Choose a Netsmart myAvatar™ web service
+Look through the [list of Netsmart myAvatar™ web services](doc/list-of-netsmart-avatar-web-services.md) and determine which, if any, will suit your needs.
+
+### Find the locations of Netsmart myAvatar™ web services in your environment
+Before you add a Netsmart web service to your project, you need to know where the Netsmart web services are located.
+
+To do this in for AVPM web services in your LIVE environment
 1. Login to your LIVE environment
 2. Open the **Registry Settings** form
 3. In the upper right text box, type **Web Service**
@@ -101,12 +92,12 @@ URL Regirsty Setting Value: https://<ORGANIZATION>csp.netsmartcloud.com/csp/<ORG
 
 where `ORGANIZATION` is the name of your organization/company.
 
-For other Avatar Environments, the Web Services location will look like this:
+For other myAvatar™ Environments, the web services location will look like this:
 ```
-URL Regirsty Setting Value: https://<ORGANIZATION>csp.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm
+URL Registy Setting Value: https://<ORGANIZATION>csp.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm
 ```
 
-## Verifying the Web Services location
+### Verifying the Netsmart myAvatar™ web services location
 To verify that the Netsmart Web Services are where they should be, and are active, open the following URL in a web browser:
 ```
 https://<ORGANIZATION>.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm/WEBSVC.UserManagement.cls
@@ -119,9 +110,9 @@ Next, add `?WSDL` to the end of the URL so it looks like this:
 https://<ORGANIZATION>.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm/WEBSVC.UserManagement.cls?WSDL
 ```
 
-This should display the Web Service Definition Language XML.
+This should display the web service definition language (WSDL) XML.
 
-## Adding a Service Reference to your project
+### Add a Netsmart myAvatar™ web service Service Reference to your project
 These instructions are for Visual Studio 2019 projects .NET Framwork 4.7.2 C# projects.
 
 1. Right-click on your project
@@ -132,39 +123,37 @@ These instructions are for Visual Studio 2019 projects .NET Framwork 4.7.2 C# pr
 https://<ORGANIZATION>.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm/WEBSVC.UserManagement.cls?WSDL
 ```
 
-5. Click **Go**. The Web Service should be found.
+5. Click **Go**. The web service should be found.
 
-6. In the *Namespace* field, give the Web Service a name. This is the name that your project will use to reference the Web Service, so make it something meaningful. For example:
+6. In the *Namespace* field, give the web service a name. This is the name that your project will use to reference the web service, so make it something meaningful. For example:
 ```
 NtstWebSvcUatUserManagement
 ```
 
 7. Click **Ok**.
 
-Repeat steps 1-5 for each of your Avatar environments.
+Repeat the above steps for each of your myAvatar™ environments.
 
-# FAQ
-### What Netsmart Web Services are available?
-Check out [this list](doc/list-of-netsmart-avatar-web-services.md)
+## Adding a custom web service to your project
+Instructions to add a custom web service to the Avatool template coming soon.
 
-# Development
-A blurb about development can go here.
+# DEVELOPMENT
+
 ### Contributors
 * [Chris Banwarth](https://github.com/APrettyCoolProgram)
+
 ### Contributing
-If you are interested in contributing to this project, please see our:
 * [Code of conduct](doc/repository/code-of-conduct.md)
 * [Contributing guidelines](doc/repository/contributing.md)
 * [Testing procedures](doc/repository/testing.md)
 * [Issue template](doc/repository/issue-template.md)
 * [Pull request template](doc/repository/pull-request-template.md)
+
 ### Acknowledgements
 * [Acknowledgements](doc/repository/acknowledgements.md)
-* [Third-party notices](doc/repository/roadmap.md)
-### Project files
-* [Development notes](doc/repository/development-notes.md)
 
 # ADDITIONAL INFORMATION
+
 ### RELATED PROJECTS
 * [ScriptLinkStandard](https://github.com/rcskids/ScriptLinkStandard)
 

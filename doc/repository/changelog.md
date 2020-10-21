@@ -1,10 +1,5 @@
 # CHANGELOG: Avatool template
 
-### v0.0.0.0.YYMMDD.HHMM
+### v1.0.0.0 (September 4, 2020)
 `INFORMATION`
-`ADDED`
-`CHANGED`
-`FIXED`
-`DEPRECIATED`
-`REMOVED`
-`SECURITY`
+* Initial release
