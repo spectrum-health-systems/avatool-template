@@ -38,9 +38,6 @@
   [GETTING STARTED](#getting-started)<br>
   [INSTALLING](#installing)<br>
   [USING](#using)<br>
-  [COMPILING](#compiling)<br>
-  [TESTING](#testing)<br>
-  [API](#api)<br>
   [DEVELOPMENT](#development)<br>
   [ADDITIONAL INFORMATION](#additional-information)<br>
 
@@ -70,12 +67,12 @@ Before you create your own Avatool utility, make sure the functionality you are 
 # Using
 Out of the box, the Avatool Template is not associated with any web service(s), Netsmart or custom. You will need to add the web services you would like to use.
 
-## Adding a Netsmart Avatar web service to your project
+### Adding a Netsmart Avatar web service to your project
 
-### Choose a Netsmart myAvatar™ Web Service
+#### Choose a Netsmart myAvatar™ Web Service
 This is the current (as of August 2020) list of [Netsmart myAvatar™ web services](doc/list-of-netsmart-avatar-web-services.md). Look through those and determine which, if any, will suit your needs.
 
-### Find the locations of Netsmart myAvatar™ web services in your environment
+#### Find the locations of Netsmart myAvatar™ web services in your environment
 Before you add a Netsmart web service to your project, you need to know where the Netsmart web services are located.
 
 To do this in for AVPM web services in your LIVE environment
@@ -100,7 +97,7 @@ For other myAvatar™ Environments, the web services location will look like thi
 URL Registy Setting Value: https://<ORGANIZATION>csp.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm
 ```
 
-### Verifying the web services location
+#### Verifying the web services location
 To verify that the Netsmart Web Services are where they should be, and are active, open the following URL in a web browser:
 ```
 https://<ORGANIZATION>.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm/WEBSVC.UserManagement.cls
@@ -115,7 +112,7 @@ https://<ORGANIZATION>.netsmartcloud.com/csp/<ORGANIZATION><ENVIRONMENT>/avpm/WE
 
 This should display the web service definition language (WSDL) XML.
 
-### Adding a Service Reference to your project
+#### Adding a Service Reference to your project
 These instructions are for Visual Studio 2019 projects .NET Framwork 4.7.2 C# projects.
 
 1. Right-click on your project
@@ -137,32 +134,32 @@ NtstWebSvcUatUserManagement
 
 Repeat steps 1-5 for each of your myAvatar™ environments.
 
-## Adding a custom web service to your project
+### Adding a custom web service to your project
 Instructions to add a custom web service to the Avatool template coming soon.
 
-# FAQ
-### What Netsmart Web Services are available?
-Check out [this list](doc/list-of-netsmart-avatar-web-services.md)
-
 # Development
-A blurb about development can go here.
-### Contributors
+
+## Contributors
 * [Chris Banwarth](https://github.com/APrettyCoolProgram)
-### Contributing
+
+## Contributing
 If you are interested in contributing to this project, please see our:
 * [Code of conduct](doc/repository/code-of-conduct.md)
 * [Contributing guidelines](doc/repository/contributing.md)
 * [Testing procedures](doc/repository/testing.md)
 * [Issue template](doc/repository/issue-template.md)
 * [Pull request template](doc/repository/pull-request-template.md)
-### Acknowledgements
+
+## Acknowledgements
 * [Acknowledgements](doc/repository/acknowledgements.md)
 * [Third-party notices](doc/repository/roadmap.md)
-### Project files
+
+## Project files
 * [Development notes](doc/repository/development-notes.md)
 
 # ADDITIONAL INFORMATION
-### RELATED PROJECTS
+
+## RELATED PROJECTS
 * [ScriptLinkStandard](https://github.com/rcskids/ScriptLinkStandard)
 
 ***
