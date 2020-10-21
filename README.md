@@ -4,6 +4,8 @@
   Authors: development@aprettycoolprogram.com
 -->
 
+<!-- avatool-template README.md v1.0.0.0 -->
+
 <h2 align="center">
 
   <img src="RepositoryData/Asset/Image/Logo/avatool-template-logo-with-text-256x256.png" alt="Avatool Template Logo" width="210"><br>
@@ -18,17 +20,6 @@
   <br>
 
 </h2>
-
-<!-- SOON -->
-<!-- REPOSITORY SCREENSHOT -->
-<!--
-<h1 align="center">
-
-  <img src="RepositoryData/Asset/Image/Screenshot/screenshot.png" alt="Repository Screenshot" width="500">
-  <br>
-
-</h1>
--->
 
 <h6 align="center">
 
