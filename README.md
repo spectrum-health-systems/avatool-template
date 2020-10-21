@@ -139,10 +139,10 @@ Instructions to add a custom web service to the Avatool template coming soon.
 
 # Development
 
-## Contributors
+### Contributors
 * [Chris Banwarth](https://github.com/APrettyCoolProgram)
 
-## Contributing
+### Contributing
 If you are interested in contributing to this project, please see our:
 * [Code of conduct](doc/repository/code-of-conduct.md)
 * [Contributing guidelines](doc/repository/contributing.md)
@@ -150,16 +150,16 @@ If you are interested in contributing to this project, please see our:
 * [Issue template](doc/repository/issue-template.md)
 * [Pull request template](doc/repository/pull-request-template.md)
 
-## Acknowledgements
+### Acknowledgements
 * [Acknowledgements](doc/repository/acknowledgements.md)
 * [Third-party notices](doc/repository/roadmap.md)
 
-## Project files
+### Project files
 * [Development notes](doc/repository/development-notes.md)
 
 # ADDITIONAL INFORMATION
 
-## RELATED PROJECTS
+### RELATED PROJECTS
 * [ScriptLinkStandard](https://github.com/rcskids/ScriptLinkStandard)
 
 ***
